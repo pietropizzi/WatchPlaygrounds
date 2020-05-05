@@ -1,4 +1,4 @@
-# Watch Playground
+# ⌚Watch Playground
 
 ![twitter: @pietropizzi](https://img.shields.io/badge/twitter-%40pietropizzi-blue)
 
