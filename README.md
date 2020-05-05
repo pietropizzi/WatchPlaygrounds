@@ -16,7 +16,7 @@ TODO
 
 ## How to use this
 
-Once you downloaded and opened the `.playgroundbook` in Swift Playgrounds simply use the `WatchPreviews` component. Here it is called with all available options (The example values are the default values).
+Once you downloaded and opened the `.playgroundbook` in Swift Playgrounds simply use the `WatchPreviews` component passing your UI as last argument. Here it is called with all available options (The example values are the default values).
 
 
 ```swift
@@ -25,7 +25,9 @@ let previews = WatchPreviews(
     tintColor: Color.gray, // The color in which the title in the status bar will be rendered
     title: "Your Title", // The title for the status bar
     time: "9:41" // The time to show in the status bar
-)
+) {
+    // Insert your UI here
+}
 ```
 
 
