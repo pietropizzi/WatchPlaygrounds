@@ -1,4 +1,6 @@
-# ⌚Watch Playground
+![⌚Watch Playgrounds](https://user-images.githubusercontent.com/410305/81161304-a8984900-8f8b-11ea-9650-c146be1492e9.png)
+
+---
 
 ![twitter: @pietropizzi](https://img.shields.io/badge/twitter-%40pietropizzi-blue)
 
@@ -6,24 +8,20 @@ Easily frame your  Watch UI in Swift Playgrounds.
 
 Here's how it looks:
 
-![Screenshot iPad](https://user-images.githubusercontent.com/410305/81097581-6a0d7a80-8f08-11ea-8296-9044216ed9ba.png)
+![Screenshot macOS](https://user-images.githubusercontent.com/410305/81155315-19883280-8f85-11ea-801a-6d49b94a61e7.png)
 
-### Motivation
-
-I wanted to be able to prototype ideas for an  Watch app on both, my Mac and my iPad. Switching seamlessly between them. Since [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) is now supported on both platforms it was the perfect candidate. To get a better feel for how the UI looks in  Watch frames of all available sizes I created these frames.
-
-### How to set this up
+### 🏗 Setup
 
 TODO
 
-### How to use this
+### 👩‍💻 Usage
 
-Once you downloaded and opened the `.playgroundbook` in Swift Playgrounds simply use the `WatchPreviews` component passing your UI as last argument. Here it is called with all available options (The example values are the default values).
+Once you downloaded and opened the `.playgroundbook` in Swift Playgrounds (see **Usage**) simply use the `WatchPreviews` component passing your UI as last argument. Here it is called with all available options (The example values are the default values).
 
 
 ```swift
 let previews = WatchPreviews(
-    models: [.mm38, .mm42, .mm40, .mm44], // Provide the watch models you want to see the previews for. 
+    models: [.mm38, .mm42, .mm40, .mm44], // Provide the watch models you want to see the previews for.
     tintColor: Color.gray, // The color in which the title in the status bar will be rendered
     title: "Your Title", // The title for the status bar
     time: "9:41" // The time to show in the status bar
@@ -32,7 +30,11 @@ let previews = WatchPreviews(
 }
 ```
 
-### Limitations
+### 💖 Motivation
+
+I wanted to be able to prototype ideas for an  Watch app on both, my Mac and my iPad. Switching seamlessly between them. Since [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) is now supported on both platforms it was the perfect candidate. To get a better feel for how the UI looks in  Watch frames of all available sizes I created these frames.
+
+### 🚧 Limitations
 
 These aren't real previews and most importantly this is not SwiftUI on watchOS it is SwiftUI on iOS. That means (among other things):
 
