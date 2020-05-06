@@ -16,13 +16,16 @@ Here's how it looks:
 
 1. Install [Swift Playgrounds for Mac](https://apps.apple.com/app/id1496833156) if you haven't already.
 1. Download the [latest playground as zip file](https://github.com/pietropizzi/WatchPlaygrounds/blob/master/playground/Watch%20Playgrounds.playgroundbook.zip?raw=true) and unpack it.
-1. Double click the unpacked `Watch Playgrounds.playgroundbook` file
+1. Double click the unpacked `Watch Playgrounds.playgroundbook` file and confirm that you want to import it to Swift Playgrounds
+1. You're done.
 
 #### iPad
 
 1. Install [Swift Playgrounds for iPad](https://apps.apple.com/app/id908519492) if you haven't already.
-1. Download the [latest playground as zip file](https://github.com/pietropizzi/WatchPlaygrounds/blob/master/playground/Watch%20Playgrounds.playgroundbook.zip?raw=true) and unpack it.
-1. ?
+1. Download the [latest playground as zip file](https://github.com/pietropizzi/WatchPlaygrounds/blob/master/playground/Watch%20Playgrounds.playgroundbook.zip?raw=true).
+1. Find the zip file in the `Downloads` folder inside the `Files` app and unpack it.
+1. Drag (or longpress and move / copy) the `Watch Playgrounds.playgroundbook` file inside the `Playgrounds` folder inside `iCloud Drive`.
+1. You're done.
 
 ### 👩‍💻 Usage
 
