@@ -12,7 +12,17 @@ Here's how it looks:
 
 ### 🏗 Setup
 
-TODO
+#### Mac
+
+1. Install [Swift Playgrounds for Mac](https://apps.apple.com/app/id1496833156) if you haven't already.
+1. Download the [latest playground as zip file](https://github.com/pietropizzi/WatchPlaygrounds/blob/master/playground/Watch%20Playgrounds.playgroundbook.zip?raw=true) and unpack it.
+1. Double click the unpacked `Watch Playgrounds.playgroundbook` file
+
+#### iPad
+
+1. Install [Swift Playgrounds for iPad](https://apps.apple.com/app/id908519492) if you haven't already.
+1. Download the [latest playground as zip file](https://github.com/pietropizzi/WatchPlaygrounds/blob/master/playground/Watch%20Playgrounds.playgroundbook.zip?raw=true) and unpack it.
+1. ?
 
 ### 👩‍💻 Usage
 
