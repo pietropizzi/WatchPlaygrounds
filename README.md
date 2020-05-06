@@ -6,7 +6,7 @@
 
 Easily frame your  Watch UI in Swift Playgrounds.
 
-Here's how it looks:
+Let's have a look at an example:
 
 ![Screenshot macOS](https://user-images.githubusercontent.com/410305/81155315-19883280-8f85-11ea-801a-6d49b94a61e7.png)
 
