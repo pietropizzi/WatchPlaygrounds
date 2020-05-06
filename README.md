@@ -1,4 +1,4 @@
-![⌚Watch Playgrounds](https://user-images.githubusercontent.com/410305/81161304-a8984900-8f8b-11ea-9650-c146be1492e9.png)
+![⌚Watch Playgrounds](https://user-images.githubusercontent.com/410305/81167100-e6e63600-8f94-11ea-8aba-ac5f76e3dd07.png)
 
 ---
 
@@ -29,7 +29,7 @@ Let's have a look at an example:
 
 ### 👩‍💻 Usage
 
-Once you downloaded and opened the `.playgroundbook` in Swift Playgrounds (see **Usage**) simply use the `WatchPreviews` component passing your UI as last argument. Here it is called with all available options (The example values are the default values).
+Once you downloaded and opened the `.playgroundbook` in Swift Playgrounds (see [Setup](#-setup)) simply use the `WatchPreviews` component passing your UI as last argument. Here it is called with all available options (The example values are the default values).
 
 
 ```swift
