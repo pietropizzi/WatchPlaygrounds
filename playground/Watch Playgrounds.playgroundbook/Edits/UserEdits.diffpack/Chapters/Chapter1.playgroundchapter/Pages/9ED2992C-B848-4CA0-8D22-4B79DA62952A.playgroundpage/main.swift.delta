@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import SwiftUI
+import PlaygroundSupport
+
+let yourUI = Color(hue: 0, saturation: 0, brightness: 0.3)
+    .overlay(Text("Your UI here"))
+
+let preview = WatchPreviews(
+    tintColor: .orange,
+    title: "Superapp",
+    time: "9:41"
+) {
+    yourUI
+}
+
+let host = UIHostingController(rootView: preview)
+PlaygroundPage.current.liveView = host
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 336}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
