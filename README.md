@@ -2,7 +2,7 @@
 
 ---
 
-![twitter: @pietropizzi](https://img.shields.io/badge/twitter-%40pietropizzi-blue)
+[![twitter: @pietropizzi](https://img.shields.io/badge/twitter-%40pietropizzi-blue)](https://twitter.com/pietropizzi)
 
 Easily frame your  Watch UI in Swift Playgrounds.
 
