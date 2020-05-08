@@ -100,6 +100,7 @@ struct Watch<Content: View>: View {
     var body: some View {
         VStack {
             ZStack(alignment: .topLeading) {
+                size.backgroundImage.resizable()
                 VStack(spacing: 0) {
                     statusBar
                     Color.black
@@ -108,9 +109,6 @@ struct Watch<Content: View>: View {
                     .frame(width: contentFrame.width, height: contentFrame.height)
                     .background(Color.black)
                     .offset(contentOffset)
-                size.backgroundImage
-                    .resizable()
-
             }
             .frame(width: watchFrame.width, height: watchFrame.height)
             Text(size.label)
